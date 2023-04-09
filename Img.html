@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image </title>
+    <style>
+        p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        /* background :no repeat: no repe
+            repeat-x : repeat in the horizontal direction
+            repeat-y : repeat in the vertical direction
+            no-repeat : image not repeat
+            space: with spacing and make sure img doesn't cuts 
+            See more possible values at MDN docs
+
+            The background-size property
+            cover : fits & no empty space remains
+            contain : fits & image is fully visible
+            auto : display in original size */
+        
+        body {
+            background-image: url(skyy.jpeg);
+            background-repeat: no-repeat;
+            /* background-repeat: space; */
+            background-size: cover;
+            /* background-position: center; */
+        }
+        /* Background image positions properties. 
+        maybe background: top, center, bottom,  left and right  
+ */
+    </style>
+    <!-- Internal CSS  -->
+</head>
+
+<body>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid soluta eos blanditiis corporis itaque alias laboriosam. Illo mollitia, repellendus cumque quo autem laboriosam maiores sequi amet. Atque architecto quia sunt!</p>
+</body>
+
+</html>

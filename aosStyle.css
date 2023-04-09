@@ -1,0 +1,26 @@
+body {
+    background-color: #9E9E9E;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+    border-style: double;
+    border-radius: 600px;
+    border: solid 20px black;
+    border-color: beige;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

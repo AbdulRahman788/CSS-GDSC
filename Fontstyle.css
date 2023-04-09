@@ -1,0 +1,64 @@
+    body {
+        background-image: url("skyyy.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-emphasis-style: bold;
+    }
+    
+    .default_fonts {
+        font-size: xx-large;
+    }
+    
+    .Default {
+        background-color: rgb(148, 148, 183);
+    }
+    
+    .Arial {
+        font-family: Arial;
+        background-color: rgb(148, 148, 183);
+    }
+    
+    .Times_New_Romain {
+        font-family: 'Times New Roman';
+        background-color: rgb(148, 148, 183);
+    }
+    
+    .Verdana {
+        font-family: Verdana;
+        background-color: rgb(148, 148, 183);
+    }
+    
+    .Font_stacking {
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        background-color: rgb(148, 148, 183);
+    }
+    
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        text-align: center;
+        text-decoration: ;
+    }
+    
+    div {
+        color: blue;
+        background-color: rgb(151, 176, 197);
+        font-size: 30px;
+        text-align: center;
+    }
+    /* Ostrich class contain Font which is imported from GOOGLE Font.  */
+    
+    .ostrich {
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: blue;
+        background-color: rgb(151, 176, 197);
+        font-family: "Smooch", cursive;
+    }
+    /* Lorem class contain ITLALIC */
+    
+    .lorem {
+        font-style: italic;
+        letter-spacing: 3px;
+    }
